@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'sinkin_sans400_regular';
+    src: url('SinkinSans-400Regular-webfont.eot');
+    src: url('SinkinSans-400Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('SinkinSans-400Regular-webfont.woff') format('woff'),
+         url('SinkinSans-400Regular-webfont.ttf') format('truetype'),
+         url('SinkinSans-400Regular-webfont.svg#sinkin_sans400_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+h2, h1{
+	font-family: sinkin_sans400_regular;
+	`text-decoration:underline;
+}
+h1{
+	text-align:center;
+	text-decoration:underline;
+	justify-content:center;
+}
+h2{
+	text-decoration:underline;
+}
+h1{
+	text-shadow: 6px 5px 6px black;
+}
+body{
+	background-color: #F06767;
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+h2{
+	color:black;
+	
+}
+#exp{
+	position:relative;
+	border: 3px black solid;
+	margin:3px;
+	align:center;
+}
+#comp{
+	position:relative;
+	border: 3px black solid;
+	margin:3px;
+}
+#form{
+	position:relative;
+	border: 3px black solid;
+	margin:3px;
+}
+#page{
+	display:flex;
+}
+.citation{
+	text-align:center;
+}
+.img{
+	display: inline-block;
+	text-align: right;
+}
+#bande{
+	background-color: black;
+	width:20%;
+	height:650px;
+	left:0px;
+}
+.intro{
+	vertical-align: top;
+}
+.reste{
+	display:flex;
+}
+.tout{
+	margin:10px;
+}
+
+/*Le code qui suit est fait exclusivement pour les appareils mobiles*/
+@media screen and (max-width:1280px){
+#bande{
+	display:none;
+}
+.reste{
+	display:inline;
+}
+}
